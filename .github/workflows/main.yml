@@ -11,7 +11,7 @@ jobs:
     name: A job to ping
     runs-on: ubuntu-latest
     env:
-      URL: http://static.81.71.161.5.clients.your-server.de/
+      URL: http://static.81.71.161.5.clients.your-server.de
       METHOD: GET  # the method used to make the request. It is GET by default
     steps:
       - id: ping
