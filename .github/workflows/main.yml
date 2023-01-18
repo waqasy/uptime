@@ -1,8 +1,2 @@
-name: hello-world
-on: push
-jobs:
-  my-job:
-    runs-on: ubuntu-latest
-    steps:
-      - name: my-step
-        run: echo "Hello World!"
+- name: scheduled ping
+  uses: sisodiya2421/pinger@v3
