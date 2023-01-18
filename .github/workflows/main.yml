@@ -1,4 +1,4 @@
-name: Scheduled Ping
+name: Scheduled-Ping
 # This workflow is triggered at a scheduled interval of every 30 minutes
 on:
   schedule:
